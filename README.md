@@ -1,6 +1,6 @@
 # Tabula Sapiens & Multiple Myeloma Microenvironment Analysis
 
-This repository contains R code for analyzing cell-cell interactions and ligand-target predictions in the context of plasma cell dyscrasias, as detailed in Went et al. Proteome-wide Mendelian Randomisation Identifies Protein Associations and Therapeutic Targets for B-cell Malignancy. Blood Neoplasia. 2026.
+This repository contains R code for analyzing cell-cell interactions and ligand-target predictions in the context of B-cell malignancies, as detailed in Went et al. [Proteome-wide Mendelian Randomisation Identifies Protein Associations and Therapeutic Targets for B-cell Malignancy]([https://ashpublications.org/bloodneoplasia/article/doi/10.1016/j.bneo.2026.100191/566025/Proteome-wide-Mendelian-Randomisation-Identifies]). Blood Neoplasia. 2026.
 
 ## Analysis Overview
 
