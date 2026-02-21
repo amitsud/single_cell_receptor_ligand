@@ -1,6 +1,6 @@
 # Tabula Sapiens & Multiple Myeloma Microenvironment Analysis
 
-This repository contains R code for analyzing cell-cell interactions and ligand-target predictions in the context of B-cell malignancies, as detailed in Went et al. [Proteome-wide Mendelian Randomisation Identifies Protein Associations and Therapeutic Targets for B-cell Malignancy]([https://ashpublications.org/bloodneoplasia/article/doi/10.1016/j.bneo.2026.100191/566025/Proteome-wide-Mendelian-Randomisation-Identifies]). Blood Neoplasia. 2026.
+This repository contains R code for analyzing cell-cell interactions and ligand-target predictions in the context of B-cell malignancies, as detailed in Went et al. [Proteome-wide Mendelian Randomisation Identifies Protein Associations and Therapeutic Targets for B-cell Malignancy](https://ashpublications.org/bloodneoplasia/article/doi/10.1016/j.bneo.2026.100191/566025/Proteome-wide-Mendelian-Randomisation-Identifies). Blood Neoplasia. 2026.
 
 ## Analysis Overview
 
@@ -34,7 +34,7 @@ You can install the main dependencies via CRAN or GitHub (for CellChat/NicheNet/
 The analysis requires the following inputs:
 
 1.  **Tabula Sapiens Object:** A Seurat object containing the Tabula Sapiens dataset.
-    * *Source:* [Tabula Sapiens on Figshare]([https://figshare.com/articles/dataset/Tabula_Sapiens_v2/27921984](https://figshare.com/articles/dataset/Tabula_Sapiens_release_1_0/14267219/1))
+    * *Source:* [Tabula Sapiens on Figshare]([https://figshare.com/articles/dataset/Tabula_Sapiens_v2/27921984](https://figshare.com/articles/dataset/Tabula_Sapiens_release_1_0/14267219/1)
 2.  **NicheNet Networks:** The code automatically downloads the necessary ligand-receptor networks and weighted matrices from Zenodo.
 3.  **Differential Expression Data:** A text file containing differentially expressed genes (e.g., `mm_scrnaseq_deg.txt`). This file should include columns for `disease_stage`, `gene`, and adjusted p-values.
 
